@@ -1,0 +1,14 @@
+PODS:
+  - CocoaSVM (0.1.0)
+
+DEPENDENCIES:
+  - CocoaSVM (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaSVM:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaSVM: 14480d3e1b0e148612d1f26418c97fc3cc0cd119
+
+COCOAPODS: 0.39.0

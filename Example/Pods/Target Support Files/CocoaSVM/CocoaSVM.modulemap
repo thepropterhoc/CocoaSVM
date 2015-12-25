@@ -1,0 +1,6 @@
+framework module CocoaSVM {
+  umbrella header "CocoaSVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

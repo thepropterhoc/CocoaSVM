@@ -13,6 +13,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		7AE2B97BD8AE3E4946E80B68 /* Pods_CocoaSVM_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47F871F5A8426F5ABC891F9 /* Pods_CocoaSVM_Tests.framework */; };
+		BD4ABE6C1C2E082E000C9E14 /* libsvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4ABE6B1C2E082E000C9E14 /* libsvm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		BD4ABE6B1C2E082E000C9E14 /* libsvm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libsvm.framework; path = ../../../../Desktop/libsvm.framework; sourceTree = "<group>"; };
 		CEEB3438FD0C04D9E40BFCB2 /* Pods-CocoaSVM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaSVM_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaSVM_Tests/Pods-CocoaSVM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2418B6A2A539750B294BC52 /* CocoaSVM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CocoaSVM.podspec; path = ../CocoaSVM.podspec; sourceTree = "<group>"; };
 		D47F871F5A8426F5ABC891F9 /* Pods_CocoaSVM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaSVM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				BD4ABE6C1C2E082E000C9E14 /* libsvm.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				7AE2B97BD8AE3E4946E80B68 /* Pods_CocoaSVM_Tests.framework in Frameworks */,
@@ -70,6 +73,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD4ABE6B1C2E082E000C9E14 /* libsvm.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

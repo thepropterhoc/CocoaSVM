@@ -1,0 +1,25 @@
+{
+  "name": "CocoaSVM",
+  "version": "0.1.0",
+  "summary": "A short description of CocoaSVM.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CocoaSVM",
+  "license": "MIT",
+  "authors": {
+    "Shelby Vanhooser": "vanhooser@ou.edu"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CocoaSVM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CocoaSVM": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CocoaSVM_Tests {
+  umbrella header "Pods-CocoaSVM_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
