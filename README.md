@@ -1,4 +1,5 @@
 # CocoaSVM
+***_Bringing libsvm to iOS_***
 
 [![CI Status](http://img.shields.io/travis/Shelby Vanhooser/CocoaSVM.svg?style=flat)](https://travis-ci.org/Shelby Vanhooser/CocoaSVM)
 [![Version](https://img.shields.io/cocoapods/v/CocoaSVM.svg?style=flat)](http://cocoapods.org/pods/CocoaSVM)

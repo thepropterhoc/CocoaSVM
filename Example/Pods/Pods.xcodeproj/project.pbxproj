@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		149F3C75445D5BA58C624142FC6F62E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3DA81B6BCA1562E7FB63143ADF687729 /* Pods-CocoaSVM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154A434838E4E544CDE773FCB07F0D14 /* Pods-CocoaSVM_Tests-dummy.m */; };
-		62BD7B82B0DAB8FE818BE562D21DF819 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0547543278C2F87A6EA5684A326AF /* ReplaceMe.m */; };
 		9F19BDFC3AD9BA7E39C23DD13FBEFAAA /* CocoaSVM.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EDF4F551AF151929EDDB65AD803F747C /* CocoaSVM.bundle */; };
 		A64491D5006E5F2889A2500F40DAF23C /* Pods-CocoaSVM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A53EDA2C85A85B5C0213E9535A72B9C /* Pods-CocoaSVM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC740A6039E9C90CB75559165C8D42C6 /* CocoaSVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7DF549FDAC4AF29C919FB0C3A26089 /* CocoaSVM-dummy.m */; };
 		B27613FD364CFC77D60A55E76C869DD5 /* CocoaSVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D52E132C96D3296DBB99CD406DC1EE /* CocoaSVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4ABE911C2E0DCA000C9E14 /* CocoaSVM.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4ABE901C2E0DCA000C9E14 /* CocoaSVM.h */; };
+		BD4ABE921C2E0DCA000C9E14 /* CocoaSVM.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4ABE901C2E0DCA000C9E14 /* CocoaSVM.h */; };
 		CC3715ED0936BADEC3286BB2F56D38B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +52,10 @@
 		A4B192EA6E0D4A91B59FA1B3CCB05E1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA16871842433D2EC1F2A14957C93EEF /* CocoaSVM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaSVM.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD4ABE901C2E0DCA000C9E14 /* CocoaSVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaSVM.h; sourceTree = "<group>"; };
 		BD7DF549FDAC4AF29C919FB0C3A26089 /* CocoaSVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaSVM-dummy.m"; sourceTree = "<group>"; };
 		C81414E43FF1D193E985DEB930CD4031 /* Pods-CocoaSVM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaSVM_Tests-resources.sh"; sourceTree = "<group>"; };
 		CEB0DC3DEE08808ABF71252CA6BA3BAD /* Pods-CocoaSVM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaSVM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4E0547543278C2F87A6EA5684A326AF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		E7D52E132C96D3296DBB99CD406DC1EE /* CocoaSVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSVM-umbrella.h"; sourceTree = "<group>"; };
 		EDF4F551AF151929EDDB65AD803F747C /* CocoaSVM.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaSVM.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,7 +98,7 @@
 		2452922FFCAF35E6BE5C965AAA141EB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E4E0547543278C2F87A6EA5684A326AF /* ReplaceMe.m */,
+				BD4ABE901C2E0DCA000C9E14 /* CocoaSVM.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -205,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B27613FD364CFC77D60A55E76C869DD5 /* CocoaSVM-umbrella.h in Headers */,
+				BD4ABE911C2E0DCA000C9E14 /* CocoaSVM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64491D5006E5F2889A2500F40DAF23C /* Pods-CocoaSVM_Tests-umbrella.h in Headers */,
+				BD4ABE921C2E0DCA000C9E14 /* CocoaSVM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +283,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC740A6039E9C90CB75559165C8D42C6 /* CocoaSVM-dummy.m in Sources */,
-				62BD7B82B0DAB8FE818BE562D21DF819 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +416,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -453,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CocoaSVM/CocoaSVM.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CocoaSVM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -495,6 +499,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CocoaSVM_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -522,6 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CocoaSVM/CocoaSVM.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CocoaSVM;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -564,6 +570,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CocoaSVM_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
