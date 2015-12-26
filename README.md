@@ -12,6 +12,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+A general knowledge of Support Vector Machines and the original work done on libsvm 
+
 ## Installation
 
 CocoaSVM is available through [CocoaPods](http://cocoapods.org). To install
