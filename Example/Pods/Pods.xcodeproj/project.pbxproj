@@ -54,6 +54,7 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD4ABE901C2E0DCA000C9E14 /* CocoaSVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaSVM.h; sourceTree = "<group>"; };
 		BD7DF549FDAC4AF29C919FB0C3A26089 /* CocoaSVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaSVM-dummy.m"; sourceTree = "<group>"; };
+		BDA0F57F1C2E350000B543FD /* libsvm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsvm.framework; sourceTree = "<group>"; };
 		C81414E43FF1D193E985DEB930CD4031 /* Pods-CocoaSVM_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaSVM_Tests-resources.sh"; sourceTree = "<group>"; };
 		CEB0DC3DEE08808ABF71252CA6BA3BAD /* Pods-CocoaSVM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaSVM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7D52E132C96D3296DBB99CD406DC1EE /* CocoaSVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaSVM-umbrella.h"; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		2452922FFCAF35E6BE5C965AAA141EB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BDA0F57F1C2E350000B543FD /* libsvm.framework */,
 				BD4ABE901C2E0DCA000C9E14 /* CocoaSVM.h */,
 			);
 			path = Classes;

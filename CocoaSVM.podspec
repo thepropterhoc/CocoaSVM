@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CocoaSVM"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "Bringing libsvm to iOS"
 
 # This description is used to generate tags and improve search results.
@@ -34,6 +34,9 @@ Pod::Spec.new do |s|
   }
 
   s.public_header_files = 'Pod/Classes/*.h'
+  s.preserve_paths = 'Pod/Classes/libsvm.framework'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework libsvm' }
+  s.vendored_frameworks = 'Pod/Classes/libsvm.framework'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
